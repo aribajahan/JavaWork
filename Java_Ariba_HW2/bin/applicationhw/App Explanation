@@ -1,0 +1,11 @@
+
+
+This entire application demonstrates: 
+a. Abstraction- Features from the interface, abstract class and concrete class were used to build devices of 3 types in the file RunComp.java.
+
+b. Inheritance- The Laptop class inherited all of the features from the DesktopComputer class & has its own unique features. 
+	Then the laptop is built in RunLaptop.java.
+
+c. Polymorphism- The cost of a laptop package was estimated in RunLaptop.java based on the formulas in Laptop.java. 
+
+d. Encapsulation- The buyer information can be displayed in RunLaptop.java while the methods sit in Buyer.java. 
