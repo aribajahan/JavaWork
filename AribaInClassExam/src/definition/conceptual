@@ -1,0 +1,100 @@
+Ariba Jahan 
+
+Answer these below Questions:
+
+What jdk contains or composed of and define each components?
+JDK, the Java Development Kit has the java compiler, the JRE, the java debugger and the java documentation.
+
+What is IDE?
+IDE is an interactive development environment. 
+
+What are the IDEs available in the market to support java?
+Eclipse and IntelliJ. 
+
+Explain the entire java life cycle.
+The code syntax is written up in a text editor (such as Eclipse). Then the source code is provided to the Java compiler, which creates the bytecodes. THe bytecode is used by JVM and then the computer's operating system can utilize it. 
+
+what is class?
+A Class is a set of code which can have its own functions (main method and constructor), variables and objects. It can also be called upon within other classes. 
+
+
+What is object?
+An object is created or predefined. It is called upon to create new objects of that type or to act a method on it. It is utilized by classes. 
+
+What is the entry point of an application?
+The entry point of an application is the main method.
+
+Why main is static?
+Static causes a variable/method to belong to a class not an object. This allows each class to have one main method section. 
+
+What is the difference between an Interface and Abstract class?
+An interface is just a roadmap, more of an idea. It cannot be built or created in to an instance and the methods within it cannot be used. However, an Abstract class can have abstract and non abstract methods and variables. These can be implemented. 
+
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+Not directly. INterface can be implemented and the abstract class can be extended in to a concrete class which can then build out the actions associated with these methods. Then you can create an object/instance of the class that has inherited all of the assets from the interface and the abstract class. 
+
+
+what is Access Specifier?
+It tells you whether the method is accessible to only the class its in or can it be used by other classes. You can set things to public or private. 
+
+What is OOP ? Define each feature of java OOP.
+OOP is object oriented programming. 
+Inheritance: allows classes to obtain features/methods from other classes without having to rewrite the syntax.
+Abstraction: allows you to create a step by step design process from interface -->abstract--> concrete class. This helps to build in layers and do implementation hiding. 
+Encapsulation: by setting variables or data to private within classes and using setters/getters, this allows to hide data. That way data can be set and called but other users can't manipulate it. 
+Polymorphism: This allows to have one method that will vary in handling depending on the number of inputs provided. 
+
+
+What is API? Name list of API that you have used so far.
+API is application programming interface. We have used Java and eclipse API documentation. I haven't had a chance to dive in to the IntelliJ documentation.
+
+Does java support multiple inheritance?
+No. 
+
+What is method overloading and when it happens?
+Method Overloading is a form of polymorphism, happens in the compile time and it allows to create multiple variations of ONE method to handle different numbers of input. 
+
+What is method overriding and when it happens?
+Method Overriding is a form of polymorphism, happens in the run time and it allows to modify a method (must have same variables) based on a case. 
+
+Explain exceptions in java and how to handle it.
+Exception Handling is done by Try/Catch method. You tell the application to "try" something but if it fails, to show a specific error message. This way you can see if its an error in the compiling or running. 
+
+What is static keyword in java? How it has been used in variables and methods ?
+Static allows variables & methods to be associated within an entire class, not an object. This allows flexibility in its use on to multiple objects. 
+
+What is final and how it has been used variables and methods?
+Final is just a keyword that forces a variable to not be changeable. That variable can only be initialized once. If a class is declared to be final, it cant be extended. When a method is declared final, it can't be overriden.
+
+What is final, finally and finalize?
+Final is just a keyword that forces a variable to not be changeable. That variable can only be initialized once. If a class is declared to be final, it cant be extended. 
+
+Finally is a block that will always execute, regardless of what exceptions have been caught in the program. That way regardless of what may have failed/ exceptions caught, this portion is always run. 
+
+Finalize is a method that gets executed by the JVM before Java does its garbage collection. 
+
+
+What is a constructor ?
+It is a way to initialize an object. You can have multiple constructors in a class. 
+
+What is "this" keyword in java ?
+It uses a specific instance of a variable to hold the value of it. It allows to temporarily store a value for the sake of running a loop/method. 
+
+What is JVM stand for ?
+Java Virtual Machine. 
+
+What version of java are you using?
+1.8
+
+What is JAR stand for ?
+Java Archive file format. 
+
+What is compile time and run time?
+Compile time is when the code is being executed on and run time is when a user may be using the compiled program. 
+
+What is heap?
+Heap is part of the RAM, it stores information and variables but dynamically. If things need to get deleted, has to be done manually. 
+
+How java manage it's memory?
+Java keeps track of what is being used and not used. So if there is ever a need for more memory it'll remove unused library information from the heap. 
